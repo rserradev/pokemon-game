@@ -37,8 +37,7 @@ export const usePokemonGame = () => {
     getNextOptions();
     console.log(pokemonOptions.value);
   });
-
-
+  
   return {
     gameStatus,
     pokemons,

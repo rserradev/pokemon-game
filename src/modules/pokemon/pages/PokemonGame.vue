@@ -6,13 +6,11 @@
 
     <section v-else="isLoading" class="flex flex-col justify-center items-center w-screen h-screen">
         <h1 class="m-5">¿Quién es este Pokémon?</h1>
-
         <!-- Pokemon Picture -->
         <PokemonPicture />
 
         <!-- Pokemon Options -->
         <PokemonOptions />
-
     </section>
 </template>
 
